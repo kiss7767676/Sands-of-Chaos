@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52266139522804341992fb91829ecbfc, type: 3}
+  m_Name: Weapon_AutoRifle_D
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon_Data
+  weaponName: AK 97
+  bulletDamage: 12
+  bulletsInMagazine: 32
+  magazineCapacity: 32
+  totalReserveAmmo: 500
+  shootType: 1
+  bulletsPerShot: 1
+  fireRate: 8
+  burstAvaiable: 1
+  burstActive: 0
+  burstBulletsPerShot: 3
+  burstFireRate: 1.5
+  burstFireDelay: 0.1
+  baseSpread: 0.15
+  maxSpread: 3
+  spreadIncreaseRate: 0.15
+  weaponType: 2
+  reloadSpeed: 2.04
+  equipmentSpeed: 1.68
+  gunDistance: 25
+  weaponIcon: {fileID: -91878611, guid: 3477fe9a26e0faa42b5a9b5b258229c1, type: 3}

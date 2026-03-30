@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ad58622f3c49947b7ae42b295248b9, type: 3}
+  m_Name: Timer - Mission
+  m_EditorClassIdentifier: Assembly-CSharp::Mission_Timer
+  missionName: Race against time
+  missionDescription: You scanner detected upcoming sandstorms. Youhave less than
+    5 minutes to reach the airplane before the conditions become unbearabel for a
+    safe takeoff.
+  time: 300

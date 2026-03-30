@@ -1,0 +1,539 @@
+{
+    "version": 1,
+    "name": "Player Controls",
+    "maps": [
+        {
+            "name": "Character",
+            "id": "4fabae3e-ee96-4a16-9cfa-b634224b606a",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "49aed283-7c24-4bc6-bbae-7f041206c881",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "d9edc925-3567-484b-ba52-0493b5136d42",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "bae86c44-74d9-4165-98cc-48c0cb2bcb54",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "fd820acd-1e1b-4177-aeb0-ccb97285246e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Equip Slot - 1",
+                    "type": "Button",
+                    "id": "03367d0b-8474-4de0-a9b0-ef5f56e41fcc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Equip Slot - 2",
+                    "type": "Button",
+                    "id": "22fd0ff5-ceb5-4364-8c84-c141c5ac444a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Equip Slot - 3",
+                    "type": "Button",
+                    "id": "c0e32729-76f7-47fa-9cef-2f5d3f540d4a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Equip Slot - 4",
+                    "type": "Button",
+                    "id": "50167b33-d6b8-4f0c-9b29-ddb3d81bc447",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Equip Slot - 5",
+                    "type": "Button",
+                    "id": "f8db9b32-0c6c-4ccb-a2f4-50a9f3dbb9c8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drop Current Weapon",
+                    "type": "Button",
+                    "id": "a21300c1-4e9d-432a-8cb8-6229dc4718ca",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reload",
+                    "type": "Button",
+                    "id": "70c5465c-8544-40cd-99ed-ec0daca96145",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Toggle Weapon Mode",
+                    "type": "Button",
+                    "id": "5fb26036-4242-498c-ba1d-e58a69dc61f4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interaction",
+                    "type": "Button",
+                    "id": "4932713d-eea6-4946-8a5b-784c3ac14aa9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UIMissionToolTipSwitch",
+                    "type": "Button",
+                    "id": "4fa2a57a-cfaf-4ab4-a7c1-7af6aa4143cb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UI_Pause",
+                    "type": "Button",
+                    "id": "1cd49b1a-e1f6-444c-8733-fb6a94135301",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PreciseAim",
+                    "type": "Button",
+                    "id": "81ab7464-3061-41f7-a5df-02177127576c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2ba357f1-e0ea-4047-a047-7e2f5606629b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "c2ed3590-4c0a-4e9c-8e61-e6367dc029a5",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "f562c657-fc33-4027-89f2-86462c308f5d",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "b3d3eac8-8ddf-4e12-9deb-8dd50d784357",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "41718fc0-71e9-4bca-96ba-f162773c25e3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "c887add5-8121-4f61-95a1-3d35f8fb88de",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "026b1389-5e72-49c6-b7b7-3fcfde657a71",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41d78065-b830-4990-9d8b-e9f628512f16",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36c2b039-9046-4430-86f7-8214bb7eca98",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Equip Slot - 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c90ffc9c-979b-4ab3-ba4b-c297958cb974",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Equip Slot - 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c1a25d9-f136-4e67-8fea-8c370b9b803a",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Equip Slot - 3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad64fd52-3697-4b71-9b75-cfd1139e0952",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Equip Slot - 4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49e67c17-4990-4788-9c25-7ca21fb1d8c0",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Equip Slot - 5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4157eccf-f041-41dc-beb1-be3008be1872",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drop Current Weapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4a4fd219-5a11-45dc-af8a-6f6a2949b076",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a450fdcd-044f-447b-bf32-c85f0cfd8059",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Weapon Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "241983b0-4f14-4ebb-89b9-9b7521441173",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d03fd55-0cb3-42b3-b882-25cdfabf5fa7",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UIMissionToolTipSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "775dd29d-4f2c-4bfe-92fa-09bed34cc30a",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI_Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f165f90d-9793-4c20-85ac-95c58f3ce540",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PreciseAim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "88d5ff6f-28ba-48fb-9728-aad5479694ab",
+            "actions": [
+                {
+                    "name": "UI_Pause",
+                    "type": "Button",
+                    "id": "69ae3768-6368-4040-9fd3-79adc5a1587e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a7463c16-8200-4201-8d5b-88186edf365c",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI_Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Car",
+            "id": "31dddf9c-62e6-4c27-a177-9b5b6e9c6cdf",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "0fd89f61-fd85-4d1e-8fbd-bbf7805dc863",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Interaction",
+                    "type": "Button",
+                    "id": "bc2032ca-90bf-4ef5-bbda-b830d1d7234f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Brake",
+                    "type": "Button",
+                    "id": "47958921-863a-49c4-9ac3-f958ef2811dd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CarExit",
+                    "type": "Button",
+                    "id": "9c1a0bc2-35ce-46d3-95b3-153f04a08618",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "fddfce73-533c-4df6-8ae6-deb9318e88a4",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "96995247-8247-4180-8621-678fcec13d5d",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "846813f1-440c-49d2-b917-c3e2bd2b2545",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "a042381e-d6aa-46f0-af3d-ccbcfe9cd521",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "6610908a-460c-4db8-b071-b20d85ed95ea",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "e1e2bcfb-3033-47ca-a3f1-25e3e9b9fe05",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04d82910-a76a-4c69-8478-1422fa5022d4",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d837007-87e1-47d8-9f3e-d77945ec64cd",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CarExit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
