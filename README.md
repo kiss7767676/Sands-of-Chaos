@@ -42,4 +42,27 @@ The game emphasizes:
 - **Modern Input System**: Unity's new Input System with full support
 - **Customizable Controls**: Fully rebindable input actions
 - **Keyboard & Controller Support**: Play your way
+<br
+### Installation Steps
 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/YourUsername/Sands-of-Chaos.git
+   cd Sands-of-Chaos
+   ```
+
+2. **Open with Unity**
+   - Launch Unity Hub
+   - Click "Add" and select the project folder
+   - Unity will automatically import all assets and packages
+
+3. **Import Dependencies**
+   - Unity will automatically resolve packages via the Package Manager
+   - Wait for the project to fully load (check console for any errors)
+
+4. **Open the Main Scene**
+   - Navigate to `Assets/Scenes/`
+   - Double-click the main scene to open it
+
+5. **Run the Game**
+   - Press **Play** in the Unity Editor or build using File → Build Settings
