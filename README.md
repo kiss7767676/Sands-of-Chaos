@@ -17,7 +17,6 @@ The game emphasizes:
 - **Procedural Generation**: Unique level layouts on each playthrough
 - **AI Enemies**: Intelligent adversaries with adaptive behavior
 - **High Replayability**: Different strategies and approaches lead to varied outcomes
-<br
 ## ✨ Features
 
 ### Combat & Gameplay
@@ -25,7 +24,6 @@ The game emphasizes:
 - **Procedurally Generated Levels**: No two playthroughs are identical
 - **AI-Driven Enemies**: Intelligent opponent behavior with different enemy types
 - **Real-time Combat System**: Fast-paced action with responsive controls
-<br
 ### Graphics & Visuals
 - **3D Top-Down Perspective**: Tactical view of the action
 - **Universal Render Pipeline (URP)**: Modern rendering with optimized performance
@@ -37,12 +35,10 @@ The game emphasizes:
 - **Dynamic Music System**: Audio mixer with ambient and action tracks
 - **Environmental Sounds**: Immersive audio design
 - **Custom Audio Manager**: Advanced audio mixing and effects
-<br
 ### Input & Controls
 - **Modern Input System**: Unity's new Input System with full support
 - **Customizable Controls**: Fully rebindable input actions
 - **Keyboard & Controller Support**: Play your way
-<br
 ### Installation Steps
 
 1. **Clone the Repository**
