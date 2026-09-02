@@ -32,7 +32,7 @@ The game emphasizes:
 - **Dynamic UI**: Responsive interface with custom graphics and elements
 - **Comic-Style Visuals**: Unique art direction with comic book aesthetic
 - **Crosshair System**: Precision aiming mechanics
-<br>
+<br
 ### Audio
 - **Dynamic Music System**: Audio mixer with ambient and action tracks
 - **Environmental Sounds**: Immersive audio design
