@@ -47,7 +47,7 @@ The game emphasizes:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YourUsername/Sands-of-Chaos.git
+   git clone https://github.com/kiss7767676/Sands-of-Chaos.git
    cd Sands-of-Chaos
    ```
 
